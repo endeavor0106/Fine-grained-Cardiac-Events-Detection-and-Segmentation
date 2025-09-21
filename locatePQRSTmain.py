@@ -18,7 +18,6 @@ from modules.data_loader import MyData
 from modules.evaluation import eval_functions, eval_functions_all
 from modules.model_selector import select_model
 
-
 def set_seed(seed=3407):
     random.seed(seed)
     np.random.seed(seed)
